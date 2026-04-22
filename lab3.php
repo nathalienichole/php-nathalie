@@ -5,10 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Program 3 - ATM</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+body {
+    font-family: "Poppins", sans-serif;
+    background: #0f172a;
+    color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    width: fit-content;
+    margin: 15px auto 30px auto;
+    padding: 10px 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #f1a0af;
+}
+
+h2 {
+    color: #a59bca;
+}
+
+form {
+    background-color: rgb(102, 110, 106);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    width: 200px;
+}
+
+button {
+    background-color: #201c24;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: #061016;
+}
+</style>
 </head>
 <body>
     <nav>
-    <a href="index.php">Lab 1</a> 
+    <a href="lab1.php">Lab 1</a> 
     <a href="lab2.php">Lab 2</a> 
     <a href="lab3.php">Lab 3</a>
 </nav>
