@@ -1,0 +1,110 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #0f172a;
+    color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* NAVBAR */
+nav {
+    width: fit-content;
+    margin: 15px auto 30px auto; /* space sa taas + centered */
+    padding: 10px 25px; /* FIXED: may semicolon na */
+    
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px; /* para pill shape */
+    backdrop-filter: blur(15px);
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* LINKS */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+/* ACTIVE / HOVER STYLE */
+nav a:hover {
+    background-color: #f1a0af;
+}
+
+/* OPTIONAL: active button style */
+nav a.active {
+    background-color: #af6472;
+}
+
+
+/* Main content */
+body {
+    text-align: center;
+}
+
+/* Headings */
+h2 {
+    margin-top: 20px;
+    color: #a59bca;
+    
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+/* Form container */
+form {
+    background-color: rgb(102, 110, 106);
+    display: inline-block;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+input, select {
+    padding: 8px;
+    margin: 5px 0;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style-position: inside;
+}
+
+ul li {
+    text-align: center;
+}
+
+/* Button */
+button {
+    background-color: #201c24;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #061016;
+}
+
+/* Output */
+h3, p {
+    color: #ffffff;
+}
